@@ -1,4 +1,4 @@
-export class App {
+class App {
     run() {
         console.log('Done');      
     }
