@@ -1,9 +1,8 @@
- {
+{
   "name": "video-coder",
   "version": "1.0.0",
   "description": "Video converter",
   "main": "dist/app.js",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Siniks7/VideoCoder"
@@ -11,9 +10,10 @@
   "author": "Nikolay Sponarovskiy",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.12"
+    "inquirer": "^8.0.0"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.7"
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.10.3"
   }
 }
